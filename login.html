@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+	<link href="css/style4.css" rel="stylesheet" type="text/css" media="all" />	
+	<link rel="stylesheet" href="css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="head">
+				<div class=" logo">
+					<a href="index.html"><img src="images/logo.png" alt=""></a>	
+				</div>
+			</div>
+		</div>
+		<div class="header-top">
+			<div class="container">
+				<div class="col-sm-5 col-md-offset-2  header-login">
+					<ul >
+						<li id="login"><a href="login.html">Login</a></li>
+						<li id="register"><a href="register.html">Register</a></li>
+						<li id="Welcome" style="display: none;color:white">Welcome</li>
+					</ul>
+				</div>
+				<div class="col-sm-5 header-social">		
+					<ul >
+						<li><a href="http://www.twitter.com"><i></i></a></li>
+						<li><a href="http://www.facebook.com"><i class="ic1"></i></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		
+		<div class="container">
+
+			<div class="head-top">
+
+				<div class="col-sm-8 col-md-offset-2 h_menu4">
+					<nav class="navbar nav_bottom" role="navigation">
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+							<ul class="nav navbar-nav nav_1">
+								<li><a class="color" href="index.html">Home</a></li>            
+								<li><a class="color3" href="product.html">Women</a></li>
+								<li><a class="color5" href="men.html">Men</a></li>
+								<li><a class="color4" href="404.html">About</a></li>
+								<li ><a class="color6" href="contact.html">Contact</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+
+					</nav>
+				</div>
+				<div class="cart box_1">
+					<a href="checkout.html">
+						<h3> <div class="total">
+							<span class="simpleCart_total"></span></div>
+							<img src="images/cart.png" alt=""/></h3>
+						</a>
+						<p><a class="simpleCart_empty">Empty Cart</a></p>
+
+					</div>
+					<div class="clearfix"> </div>
+				</hr>
+				<!--login-->
+				<div class="container">
+					<div class="login">
+
+						<form>
+							<div class="col-md-6 login-do">
+								<div class="login-mail">
+									<input class ="Email" type="text" placeholder="Email" required="">
+									<i  class="glyphicon glyphicon-envelope"></i>
+								</div>
+								<div class="login-mail">
+									<input class="psw" type="password" placeholder="Password" required="">
+									<i class="glyphicon glyphicon-lock"></i>
+								</div>
+								<a class="news-letter " href="#">
+									<label class="checkbox1"><input type="checkbox" name="checkbox" ><i> </i>Forget Password</label>
+								</a>
+								<label class="hvr-skew-backward">
+									<input onclick="logged()" class="button1" id="loginButton" type="button" value="login">
+								</label>
+							</div>
+							<div class="col-md-6 login-right">
+								<h3>Completely Free Account</h3>
+
+								<p>smth</p>
+								<a href="register.html" class=" hvr-skew-backward">Register</a>
+
+							</div>
+
+							<div class="clearfix"> </div>
+						</form>
+					</div>
+
+				</div>
+			</br></br>
+			<!--//footer-->
+			<div class="footer">
+				<div class="footer-middle">
+					<div class="container">
+						<div class="col-md-3 footer-middle-in">
+							<a href="index.html"><img src="images/log.png" alt=""></a>
+							<p>An online store since two days, we sell the newest collections of fashion</p>
+						</div>
+
+						<div class="col-md-3 footer-middle-in">
+							<h6>Information</h6>
+							<ul class=" in">
+								<li><a href="404.html">About</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+								<li><a href="#">Returns</a></li>
+								<li><a href="contact.html">Site Map</a></li>
+							</ul>
+							<ul class="in in1">
+								<li><a href="#">Order History</a></li>
+								<li><a href="wishlist.html">Wish List</a></li>
+								<li><a href="login.html">Login</a></li>
+							</ul>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-md-3 footer-middle-in">
+							<h6>Newsletter</h6>
+							<span>Sign up for News Letter</span>
+							<form>
+								<input type="text" value="Enter your E-mail" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Enter your E-mail';}">
+								<input type="submit" value="Subscribe">	
+							</form>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="container">
+						<p class="footer-class">&copy; 2016 Shopin. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!--//footer-->
+			<script src="js/login.js"></script>
+		</body>
+		</html>

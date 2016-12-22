@@ -1,0 +1,5 @@
+This final project for preparation period on RBK 
+
+It's an online fashion store, based on bootstrap template. 
+
+Hope you like it 
